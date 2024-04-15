@@ -65,3 +65,36 @@ Esta aplicación es una demostración básica y no implementa medidas avanzadas 
 
 Siéntete libre de contribuir a este proyecto o sugerir mejoras. Para cualquier consulta o problema, por favor abre un issue en este repositorio.
 
+# INVESTIGACION
+CRUD (Create, Read, Update, Delete) es un acrónimo para las maneras en las que se puede operar sobre información almacenada. Es un nemónico para las cuatro funciones del almacenamiento persistente.
+CRUD son las operaciones básicas que se pueden realizar sobre datos en un sistema de gestión de bases de datos o en una interfaz de usuario. Estas operaciones son:
+
+### Create (Crear):
+Crear nuevos registros en la base de datos. Para implementar la operación, es necesario proporcionar un formulario o una interfaz donde el usuario pueda ingresar los datos para el nuevo registro. Después de que el usuario envía los datos, se debe realizar una validación de los mismos y luego insertarlos en la base o en el sistema de almacenamiento.
+
+En un gestor de pagos, esto se podría utilizar para agregar un nuevo cliente o para crear un registro de pago.
+
+### Read (Leer):
+Esta fase se utiliza para leer los datos de la base y mostrarlos al usuario. Para implementar la operación «Leer», se debe proporcionar una interfaz que permita al usuario buscar y recuperar los registros existentes. Esto puede lograrse mediante el uso de filtros de búsqueda y una lista de resultados. Cuando el usuario hace clic en un registro, se debe mostrar su información completa.
+
+En un gestor de pagos, esto se podría utilizar para mostrar una lista de clientes o para ver los detalles de un pago específico.
+
+### Update (Actualizar):
+Esta fase se utiliza para actualizar los datos existentes en la base de datos. Para implementar la operación «Actualizar», es necesario proporcionar una interfaz para que el usuario pueda modificar los datos de un registro existente. Una vez que el usuario envía los datos actualizados, debe realizarse una validación de los mismos y luego actualizar el registro correspondiente en la base o en el sistema de almacenamiento.
+
+En un gestor de pagos, esto se podría utilizar para actualizar la información de un cliente o para marcar un pago como completado.
+### Delete (Eliminar):
+Esta fase se utiliza para eliminar un registro existente. Para implementar la operación «Eliminar», se debe proporcionar una interfaz que permita al usuario seleccionar un registro existente y confirmar su eliminación.
+
+Después de la confirmación, se debe borrar el registro correspondiente de la base o sistema.
+
+En un gestor de pagos, esto se podría utilizar para eliminar un cliente o para borrar un registro de pago.
+## Ejemplos de aplicaciones del CRUD
+Estos son algunos ejemplos comunes:
+
+- **Aplicaciones de gestión de contenido:** los sistemas de gestión de contenido (CMS, por sus siglas en inglés) como WordPress, Drupal o Joomla permiten a los usuarios crear, leer, actualizar y eliminar contenidos en una página web.
+- **Aplicaciones de comercio electrónico:** las tiendas en línea, como Amazon, eBay o Alibaba, dan a los usuarios la posibilidad de crear una cuenta, buscar productos, agregar productos al carrito de compras, actualizar la información de envío y eliminar productos o cuentas de usuario.
+- **Sistemas de reservas:** con las aplicaciones de reservas de hoteles, vuelos, restaurantes, etc., como Booking.com, Expedia u OpenTable, los usuarios pueden hacer una reserva, ver sus detalles, actualizarla y cancelarla.
+- **Aplicaciones de redes sociales:** aplicaciones de redes sociales como Facebook, Twitter o LinkedIn permiten a los usuarios crear perfiles de usuario, publicar contenido, leer y comentar el contenido de otros usuarios, actualizar la información del perfil y eliminar contenido propio.
+- **Aplicaciones de gestión de proyectos:** con aplicaciones como Trello, Asana o Jira, los usuarios pueden crear proyectos, agregar tareas, asignar tareas a miembros del equipo, actualizar el estado de las tareas y eliminarlas.
+
